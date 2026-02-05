@@ -1,0 +1,39 @@
+{
+  "api_keys": {
+    "tiktok": {
+      "device_id": "auto_generate",
+      "iid": "auto_generate",
+      "openudid": "auto_generate"
+    },
+    "instagram": {
+      "app_id": "567067343352427",
+      "device_id": "auto_generate",
+      "uuid": "auto_generate"
+    },
+    "telegram": {
+      "bot_tokens": ["auto_generate"],
+      "api_id": "auto_generate",
+      "api_hash": "auto_generate"
+    },
+    "whatsapp": {
+      "business_id": "auto_generate",
+      "access_tokens": ["auto_generate"]
+    }
+  },
+  "settings": {
+    "max_threads": 50,
+    "delay_between_actions": 0.5,
+    "proxy_rotation": true,
+    "auto_retry": true,
+    "max_retries": 3,
+    "user_agents_file": "user_agents.txt",
+    "proxies_file": "proxies.txt"
+  },
+  "safety": {
+    "max_per_day": 10000,
+    "cool_down_hours": 6,
+    "randomize_actions": true,
+    "mimic_human_behavior": true,
+    "avoid_patterns": true
+  }
+}
